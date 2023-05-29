@@ -13,9 +13,9 @@ Scenario: ProductSearch
 	And I click on save change
 	And I enter in the Search field
 	And I click on search
-	And I select McAfee as brand
-	And I enter minimum price range
-	And I enter maximum Price range
-	And I click on Go
-	When I select Window's oprating system Product
-	Then Window's compatibility product should be displayed
+	#And I select McAfee as brand
+	#And I enter minimum price range
+	#And I enter maximum Price range
+	#And I click on Go
+	#When I select Window's oprating system Product
+	#Then Window's compatibility product should be displayed

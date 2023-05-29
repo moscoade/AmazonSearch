@@ -17,6 +17,7 @@ C:\Users\zayne\Documents\AmazonProductSearch\bin\Debug\net6.0\AmazonProductSearc
 C:\Users\zayne\Documents\AmazonProductSearch\bin\Debug\net6.0\AmazonProductSearch.dll
 C:\Users\zayne\Documents\AmazonProductSearch\bin\Debug\net6.0\AmazonProductSearch.pdb
 C:\Users\zayne\Documents\AmazonProductSearch\bin\Debug\net6.0\BoDi.dll
+C:\Users\zayne\Documents\AmazonProductSearch\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
 C:\Users\zayne\Documents\AmazonProductSearch\bin\Debug\net6.0\FluentAssertions.dll
 C:\Users\zayne\Documents\AmazonProductSearch\bin\Debug\net6.0\Gherkin.dll
 C:\Users\zayne\Documents\AmazonProductSearch\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll

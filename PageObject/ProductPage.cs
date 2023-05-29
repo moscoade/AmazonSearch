@@ -18,8 +18,8 @@ namespace AmazonProductSearch.PageObject
         private By BrtPound = By.XPath("//*[@id='icp-currency-dropdown_22']");
         private By save = By.XPath("(//*[@type='submit'])[2]");
         private By searchItems = By.XPath("//*[@type='text']");
-        private By search = By.CssSelector("#nav-search-submit-button");
-        //private By brand = By.CssSelector("#p_89\\/McAfee > span > a > div > label > i");
+        private By search = By.XPath("//*[@id=\"nav-search-submit-button\"]");
+        private By brand = By.CssSelector("#p_89\\/McAfee > span > a > div > label > i");
        
         
         public ProductPage() 
@@ -54,7 +54,8 @@ namespace AmazonProductSearch.PageObject
 
         public void SearchField()
         {
-            driver.FindElement(searchItems).SendKeys("Antivirus");
+            driver.FindElement(searchItems).Click();
+           driver.FindElement(searchItems).SendKeys("Antivirus");
         }
 
         public void ClickSearchBtn()
@@ -64,7 +65,7 @@ namespace AmazonProductSearch.PageObject
 
         public void SelectBrand()
         {
-           //driver.FindElement(brand).Click();
+           driver.FindElement(brand).Click();
         }
 
 

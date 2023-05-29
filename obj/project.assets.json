@@ -18,7 +18,19 @@
           "build/_._": {}
         }
       },
-      "FluentAssertions/6.10.0": {
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "FluentAssertions/6.11.0": {
         "type": "package",
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.4.0"
@@ -607,10 +619,10 @@
           }
         }
       },
-      "Selenium.Support/4.8.2": {
+      "Selenium.Support/4.9.0": {
         "type": "package",
         "dependencies": {
-          "Selenium.WebDriver": "4.8.2"
+          "Selenium.WebDriver": "4.9.0"
         },
         "compile": {
           "lib/net6.0/WebDriver.Support.dll": {}
@@ -619,7 +631,7 @@
           "lib/net6.0/WebDriver.Support.dll": {}
         }
       },
-      "Selenium.WebDriver/4.8.2": {
+      "Selenium.WebDriver/4.9.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -634,7 +646,7 @@
           "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/111.0.5563.6400": {
+      "Selenium.WebDriver.ChromeDriver/113.0.5672.6300": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -1698,15 +1710,30 @@
         "tools/_._"
       ]
     },
-    "FluentAssertions/6.10.0": {
-      "sha512": "Da3YsiRDnOHKBfxutjnupL1rOX0K/jnG6crn5AgwukeqZ/yi+HNCOFshic01ke0ztZFWzpfQMXH8fO9aAbG0Gw==",
+    "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+      "sha512": "xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
       "type": "package",
-      "path": "fluentassertions/6.10.0",
+      "path": "dotnetseleniumextras.waithelpers/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.waithelpers.nuspec",
+        "lib/net35/SeleniumExtras.WaitHelpers.dll",
+        "lib/net40/SeleniumExtras.WaitHelpers.dll",
+        "lib/net45/SeleniumExtras.WaitHelpers.dll",
+        "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll"
+      ]
+    },
+    "FluentAssertions/6.11.0": {
+      "sha512": "aBaagwdNtVKkug1F3imGXUlmoBd8ZUZX8oQ5niThaJhF79SpESe1Gzq7OFuZkQdKD5Pa4Mone+jrbas873AT4g==",
+      "type": "package",
+      "path": "fluentassertions/6.11.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "FluentAssertions.png",
-        "fluentassertions.6.10.0.nupkg.sha512",
+        "fluentassertions.6.11.0.nupkg.sha512",
         "fluentassertions.nuspec",
         "lib/net47/FluentAssertions.dll",
         "lib/net47/FluentAssertions.pdb",
@@ -2499,10 +2526,10 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "Selenium.Support/4.8.2": {
-      "sha512": "tS51BJC22gQBSW2VYFAxJ7GwPQguzel41bnQyXkgoShAUO5P48lxQ83EBZe8isISjMKCDsHWOv95aUNVQaEFGA==",
+    "Selenium.Support/4.9.0": {
+      "sha512": "YzLglT1RymLURjlUQ5FjspDwaDRvPS/iEPPcU0DPDi9vSQUhZLgFEn1z6L2RuFQY+1Uo8LSN54awLK3fsB+UTg==",
       "type": "package",
-      "path": "selenium.support/4.8.2",
+      "path": "selenium.support/4.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2515,14 +2542,14 @@
         "lib/net6.0/WebDriver.Support.dll",
         "lib/netstandard2.0/WebDriver.Support.dll",
         "lib/netstandard2.1/WebDriver.Support.dll",
-        "selenium.support.4.8.2.nupkg.sha512",
+        "selenium.support.4.9.0.nupkg.sha512",
         "selenium.support.nuspec"
       ]
     },
-    "Selenium.WebDriver/4.8.2": {
-      "sha512": "gNCaZrR32U2e9pyS+HXSqNHdcrIbqulOkcmycFoDL/tM5la4tELaZ3FpPRbq7tjJK3cKs5lLqVVFM9PfY1WW5g==",
+    "Selenium.WebDriver/4.9.0": {
+      "sha512": "7MiV7cpu5LuM7bBhMz/a25Lb78rFyfl8v2G3q56TAtxdDJEj3WXaRMDyytrKq1YVZ7jaN3pygku0n0IsYfe/SQ==",
       "type": "package",
-      "path": "selenium.webdriver/4.8.2",
+      "path": "selenium.webdriver/4.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2540,14 +2567,14 @@
         "manager/linux/selenium-manager",
         "manager/macos/selenium-manager",
         "manager/windows/selenium-manager.exe",
-        "selenium.webdriver.4.8.2.nupkg.sha512",
+        "selenium.webdriver.4.9.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/111.0.5563.6400": {
-      "sha512": "qLM1wbhtfyX/7cdqCHsuos8jKG67ojsOgKLvoHReRYCBPVbbSl/niedtAVzOLpnEn9sk9C7FH6jHc/QQIR0G4w==",
+    "Selenium.WebDriver.ChromeDriver/113.0.5672.6300": {
+      "sha512": "koLDjWwvv8fMyZhUu8ROFvaBnNcSc3FfyavEc+LKsk7AzfHEDA2xph7WwJGz3Y20mxH1zxW/q+EyKG6Z3cM7UQ==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/111.0.5563.6400",
+      "path": "selenium.webdriver.chromedriver/113.0.5672.6300",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2559,7 +2586,7 @@
         "driver/mac64arm/chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.111.0.5563.6400.nupkg.sha512",
+        "selenium.webdriver.chromedriver.113.0.5672.6300.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
@@ -5462,12 +5489,13 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "FluentAssertions >= 6.10.0",
+      "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
+      "FluentAssertions >= 6.11.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "NUnit3TestAdapter >= 4.4.2",
-      "Selenium.Support >= 4.8.2",
-      "Selenium.WebDriver >= 4.8.2",
-      "Selenium.WebDriver.ChromeDriver >= 111.0.5563.6400",
+      "Selenium.Support >= 4.9.0",
+      "Selenium.WebDriver >= 4.9.0",
+      "Selenium.WebDriver.ChromeDriver >= 113.0.5672.6300",
       "SpecFlow.NUnit >= 3.9.74",
       "SpecFlow.Plus.LivingDocPlugin >= 3.9.57",
       "nunit >= 3.13.3"
@@ -5512,9 +5540,13 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "DotNetSeleniumExtras.WaitHelpers": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
           "FluentAssertions": {
             "target": "Package",
-            "version": "[6.10.0, )"
+            "version": "[6.11.0, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -5526,15 +5558,15 @@
           },
           "Selenium.Support": {
             "target": "Package",
-            "version": "[4.8.2, )"
+            "version": "[4.9.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
-            "version": "[4.8.2, )"
+            "version": "[4.9.0, )"
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[111.0.5563.6400, )"
+            "version": "[113.0.5672.6300, )"
           },
           "SpecFlow.NUnit": {
             "target": "Package",
@@ -5565,7 +5597,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

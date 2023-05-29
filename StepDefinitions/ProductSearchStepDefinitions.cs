@@ -65,7 +65,7 @@ namespace AmazonProductSearch.StepDefinitions
         [Given(@"I select McAfee as brand")]
         public void GivenISelectMcAfeeAsBrand()
         {
-           //productPage.SelectBrand();
+           productPage.SelectBrand();
         }
 
 
